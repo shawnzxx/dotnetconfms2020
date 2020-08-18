@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Domain.Manager">
+    <Position X="7.5" Y="3.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>BAACIAAAQAAAAAAAAAAAAAQAAAAAAAIAAAAAAAAAAIA=</HashCode>
+      <FileName>Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NameFactory" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="PastTeams" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Domain.ManagerTeamHistory">
+    <Position X="6.25" Y="7" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagerTeamHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Team">
+    <Position X="1.25" Y="1.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAATgAAIAAAABAAAAIBARQABABAgAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Team.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_manager" />
+      <Property Name="HomeColors" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_players" />
+      <Property Name="Players" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="domain.ManagerTeamHistoryView">
+    <Position X="9.5" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAEAAAAAAAAAA=</HashCode>
+      <FileName>ManagerTeamHistoryView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="7.5" Y="1.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NameFactory" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SharedKernel.UniformColors">
+    <Position X="1.75" Y="6" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SharedKernel.PersonFullName">
+    <Position X="12.25" Y="1.75" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
